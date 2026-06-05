@@ -1,0 +1,6 @@
+ test_prompt,agent_response_excerpt,intent_resolution,relevance,groundedness,comments
+ day-hike-gear,"For a summer day hike in moderate terrain, essential gear includes...",5,5,4,Clear and comprehensive gear list
+ overnight-camping,"For your first overnight camping trip, start with these essentials...",4,4,5,Good beginner advice with safety focus
+ three-day-backpacking,"Critical safety considerations for October mountain backpacking...",5,5,5,Excellent detailed safety guidance
+ winter-hiking,"Winter hiking requires additional gear and precautions...",4,4,4,Good comparison of seasonal differences
+ trail-difficulty,"To assess trail difficulty for your fitness level as a beginner...",5,5,5,Helpful framework for self-assessment
