@@ -44,6 +44,7 @@ jobs:
         env:
           AZURE_AI_PROJECT_ENDPOINT: ${{ secrets.AZURE_AI_PROJECT_ENDPOINT }}
           MODEL_NAME: ${{ vars.MODEL_NAME || 'gpt-4.1' }}
+          DATASET_VERSION: ci-${{ github.run_id }}-${{ github.run_attempt }}
           AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
           AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}

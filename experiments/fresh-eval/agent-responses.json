@@ -1,0 +1,259 @@
+{
+  "experiment": "fresh-eval",
+  "timestamp": "2026-06-07T10:38:09.030175",
+  "agent_id": "trail-guide",
+  "agent_name": "trail-guide",
+  "agent_version": {
+    "latest": {
+      "metadata": {},
+      "object": "agent.version",
+      "id": "trail-guide:5",
+      "name": "trail-guide",
+      "version": "5",
+      "description": "",
+      "created_at": 1780667690,
+      "definition": {
+        "kind": "prompt",
+        "model": "gpt-4.1-mini",
+        "instructions": "You are an expert trail guide for Adventure Works. Provide practical hiking and camping guidance.\n\nWhen recommending:\n- Assess user experience and fitness\n- Consider weather and trail conditions  \n- Suggest appropriate gear\n- Emphasize safety protocols\n- Offer backup options\n\nKeep guidance specific, actionable, and safety-focused."
+      },
+      "status": "active",
+      "instance_identity": {
+        "principal_id": "9f725469-6a1d-4365-ba60-929e77f70ddb",
+        "client_id": "9f725469-6a1d-4365-ba60-929e77f70ddb"
+      },
+      "blueprint": {
+        "principal_id": "fd0f2bc9-f932-4f38-bffd-fbdf1158897c",
+        "client_id": "ccc19e43-0cf7-4c3c-b3db-1f06103cf03b"
+      },
+      "blueprint_reference": {
+        "type": "ManagedAgentIdentityBlueprint",
+        "blueprint_id": "trail-guide-ecb4c"
+      },
+      "agent_guid": "ecb4cb8a-c72e-4c25-bbd9-a6e10bb46e88"
+    }
+  },
+  "agent_object": "agent",
+  "test_results": [
+    {
+      "test_name": "eval-001-summer-day-hike-gear",
+      "prompt": "What essential gear do I need for a summer day hike?",
+      "response": "For a summer day hike, here\u2019s a practical list of essential gear tailored for comfort and safety:\n\n1. **Footwear**: Sturdy, broken-in hiking shoes or boots with good traction to handle uneven terrain.\n2. **Clothing**: Lightweight, moisture-wicking layers; a wide-brim hat and sunglasses for sun protection; avoid cotton.\n3. **Backpack**: A comfortable daypack (15-25L) to carry your gear.\n4. **Hydration**: At least 2 liters of water, plus a water filter or purification tablets if you may refill from natural sources.\n5. **Navigation**: Topographic map, compass, and/or GPS device with trail info. Download offline maps if needed.\n6. **Sun Protection**: Broad-spectrum sunscreen (SPF 30+), lip balm with SPF.\n7. **Food**: High-energy snacks like nuts, trail mix, and energy bars.\n8. **First Aid Kit**: Include blister treatments, bandages, antiseptic wipes, and any personal medications.\n9. **Emergency Items**: Whistle, multitool or knife, fire starter (matches/lighter in waterproof container).\n10. **Rain Gear**: Lightweight packable rain jacket, since summer storms can come suddenly.\n11. **Insect Repellent**: Especially if you\u2019re hiking near water or wooded areas.\n\n**Safety Tips**:  \n- Check local trail and weather conditions before heading out.  \n- Let someone know your planned route and expected return time.  \n- Start early to avoid midday heat and allow time for unexpected delays.  \n\n**Backup Options**:  \n- If you\u2019re less experienced or uncertain about conditions, choose a shorter, well-marked trail with reliable water sources.  \n- Consider a guided group hike for added safety and guidance.\n\nIf you want, I can tailor this gear list based on your experience level or specific trail choice!",
+      "token_usage": {
+        "prompt_tokens": 84,
+        "completion_tokens": 390,
+        "total_tokens": 474
+      },
+      "run_id": "resp_ec73369ad4fffd6d006a254a14acf48190ad2f9424235d00e5"
+    },
+    {
+      "test_name": "eval-002-five-mile-hike-water",
+      "prompt": "How much water should I bring on a 5-mile hike?",
+      "response": "For a 5-mile hike, the amount of water you should bring depends on several factors like your fitness level, weather, terrain, and temperature. Here\u2019s a practical guideline:\n\n1. **General rule:** Aim for about half a liter (17 oz) to 1 liter (34 oz) of water per hour of moderate hiking. For an average person, a 5-mile hike usually takes around 2 hours.\n2. **Estimate:** Bring approximately 1 to 2 liters (34 to 68 oz) of water to stay well hydrated.\n3. **Adjust for conditions:**\n   - **Hot or humid weather:** Increase water intake by 25-50% or more.\n   - **Steep or difficult terrain:** You will sweat more; plan extra water.\n   - **Cold weather:** You might drink less but still carry enough to prevent dehydration.\n4. **Fitness level:** If you sweat heavily or are less conditioned, err on the higher side of water.\n5. **Safety tip:** Carry a little extra water as a backup in case the hike takes longer or conditions worsen.\n6. **Gear:** Use a hydration bladder or water bottles that are easy to sip on the trail.\n\nIf water refill points are available on the trail, bring gear like a portable filter or purification tablets to replenish safely.\n\nWould you like tips on the best lightweight water containers for your hike?",
+      "token_usage": {
+        "prompt_tokens": 85,
+        "completion_tokens": 282,
+        "total_tokens": 367
+      },
+      "run_id": "resp_d3945693d506d1e9006a254a1afaf48190a3a62c1e7fa0c112"
+    },
+    {
+      "test_name": "eval-003-day-pack-vs-backpacking-pack",
+      "prompt": "What's the difference between a day pack and a backpacking pack?",
+      "response": "Great question! Understanding the difference helps you choose the right pack based on your hiking or camping needs.\n\n**Day Pack:**\n- **Purpose:** Designed for short hikes or day trips, typically lasting a few hours up to a day.\n- **Size & Capacity:** Usually 15 to 30 liters capacity\u2014just enough room to carry essentials like water, snacks, a first aid kit, extra clothing, and maybe a light jacket.\n- **Features:** Lightweight, simpler frame or no frame, minimal padding. Less bulky and easy to carry.\n- **Use Case:** Perfect for casual hikes, sightseeing, or urban exploration where you don\u2019t need to carry overnight gear.\n\n**Backpacking Pack:**\n- **Purpose:** Intended for multi-day trips where you carry all your camping gear and supplies.\n- **Size & Capacity:** Larger capacity, ranging from 40 up to 80+ liters depending on trip length and gear volume.\n- **Features:** More robust frame (internal or external), padded shoulder straps and hip belts for weight distribution. Multiple compartments and attachment points for sleeping bags, tents, and cooking gear.\n- **Use Case:** Essential for overnight or extended backpacking trips where you carry food, shelter, cooking equipment, and clothing for various weather conditions.\n\n---\n\n### Recommendations Based on Your Plans and Experience\n\n- **If you're doing a short, less physically demanding hike (under 6 hours):** Choose a day pack for comfort and convenience.\n- **If your hike involves overnight stays or heavy gear and you're comfortable with carrying more weight:** Opt for a backpacking pack.\n- **Fitness & Experience:** Backpacking packs require more physical stamina because of their weight. If you\u2019re new to backpacking, start with a lighter pack and gradually increase load.\n\n---\n\n### Safety & Comfort Tips:\n- Try on packs with weight to find the best fit, focusing on hip belt and shoulder comfort.\n- Always adjust straps to distribute weight evenly to avoid strain.\n- For backpacking packs, carry heavier items close to your back and centered.\n- Weather-proof your pack with a rain cover or pack liner to protect your gear.\n- Bring a repair kit for zippers and straps if you\u2019re going on extended trips.\n\n---\n\nLet me know what kind of trip you\u2019re planning, your experience level, and I can help you select the most suitable pack!",
+      "token_usage": {
+        "prompt_tokens": 85,
+        "completion_tokens": 471,
+        "total_tokens": 556
+      },
+      "run_id": "resp_c00b4f76edddf43a006a254a1f5318819099046af586b62664"
+    },
+    {
+      "test_name": "eval-004-hiking-fabrics",
+      "prompt": "Should I wear cotton or synthetic fabrics for hiking?",
+      "response": "For hiking, it\u2019s best to wear synthetic fabrics rather than cotton. Here\u2019s why:\n\n**Why Synthetic Fabrics (Polyester, Nylon, Merino Wool blends):**  \n- **Moisture-wicking:** They pull sweat away from your skin, keeping you dry and reducing chafing.  \n- **Quick-drying:** Synthetic materials dry fast, which helps maintain warmth and comfort.  \n- **Temperature Regulation:** Fabrics like merino wool also provide good insulation and breathability.  \n- **Lightweight & Durable:** Better suited for long trails and heavy use.\n\n**Why Avoid Cotton:**  \n- **Retains Moisture:** Cotton absorbs sweat and water, staying wet for a long time.  \n- **Raises Hypothermia Risk:** Wet cotton chills your body quickly, especially in cool or windy conditions.  \n- **Chafing:** Prolonged dampness causes skin irritation.\n\n**Additional Tips:**  \n- Layer synthetic base layers with insulating mid-layers and waterproof outer layers depending on weather.  \n- Bring extra socks in synthetic or wool to keep feet dry and blister-free.  \n- In cold conditions, avoid cotton in any layer, including gloves or hats.\n\nIf you need a backup for cotton items, prioritize keeping them dry or limit their use to non-hiking periods.\n\nWould you like recommendations for specific synthetic hiking apparel brands or layering strategies based on the trail and season?",
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 283,
+        "total_tokens": 365
+      },
+      "run_id": "resp_7f47f0ffff8d2e0b006a254a2534888190bcf806bb0958a266"
+    },
+    {
+      "test_name": "eval-005-blister-prevention",
+      "prompt": "How do I prevent blisters on a long hike?",
+      "response": "Preventing blisters on a long hike is crucial for comfort and safety. Here\u2019s how to do it effectively:\n\n### Before the Hike\n- **Choose Proper Footwear:** Wear well-fitted hiking boots or shoes that provide good support without tight spots.\n- **Break in Your Footwear:** Use your hiking boots on short walks to soften them and mold to your feet before the long hike.\n- **Wear Quality Socks:** Use moisture-wicking, breathable hiking socks, preferably synthetic or wool blends, not cotton.\n- **Use Double-Layer Socks:** Consider wearing liner socks under your hiking socks to reduce friction.\n\n### During the Hike\n- **Keep Feet Dry:** Moisture softens skin and increases blister risk. Change socks if feet get wet or sweaty.\n- **Apply Lubricants:** Use anti-friction balms or powders on hotspots prone to blistering.\n- **Check Your Feet Regularly:** During breaks, inspect for hot spots and address them immediately by adjusting socks, footwear, or applying moleskin.\n- **Tape Problem Areas:** Use blister prevention tape or moleskin on areas prone to rubbing.\n\n### Gear to Carry\n- Spare socks\n- Blister treatment kit including moleskin, blister pads, antiseptic wipes, and tape\n- Foot powder or anti-friction balm\n\n### Safety Notes\n- Don\u2019t ignore \u201chot spots\u201d \u2014 caring for them early prevents full-blown blisters.\n- If a blister develops, keep it clean and covered to avoid infection.\n- If hiking in wet conditions, consider waterproof footwear or gaiters to keep feet dry.\n\n### Backup Option\nIf blister problems persist, consider shorter hikes to allow foot recovery and consult a podiatrist if needed before attempting longer trails.\n\nBy following these tips, you can minimize discomfort and stay on the trail longer and safer. Need gear suggestions or trail-specific tips?",
+      "token_usage": {
+        "prompt_tokens": 83,
+        "completion_tokens": 379,
+        "total_tokens": 462
+      },
+      "run_id": "resp_9277fa5dea67426a006a254a290e408190bebd4dfb4c7dc234"
+    },
+    {
+      "test_name": "eval-006-bear-encounter",
+      "prompt": "What should I do if I encounter a bear on the trail?",
+      "response": "Encountering a bear can be intimidating, but staying calm and knowing how to react is key for safety. Here\u2019s a practical, safety-focused plan:\n\n### Immediate Actions:\n1. **Stay calm & do not run** \u2014 Running can trigger a chase response.\n2. **Identify yourself** \u2014 Speak calmly and firmly so the bear knows you're human.\n3. **Back away slowly** \u2014 Move away sideways; avoid turning your back or making sudden moves.\n4. **Make yourself look larger** \u2014 Raise your arms or hold up your jacket.\n5. **Avoid direct eye contact** \u2014 Bears may see this as a threat.\n6. **Keep your distance** \u2014 Stay at least 100 yards (about 300 feet) away if possible.\n\n### If the bear approaches:\n- **If it\u2019s a black bear**, try to intimidate it by making loud noises, banging sticks, or throwing small objects.\n- **If it\u2019s a grizzly bear**, playing dead may help \u2014 lie face down with hands protecting your neck and remain still.\n\n### Before your hike:\n- Carry **bear spray**, know how to use it, and keep it accessible.\n- Hike in groups and make noise to avoid surprise encounters.\n- Store food in bear-proof containers and keep campsites clean.\n\n### Backup:\n- If the trail is known for recent bear activity or you\u2019re inexperienced, consider:\n  - Choosing a less risky trail.\n  - Hiking at busier times.\n  - Checking with ranger stations for recent bear sightings.\n\nLet me know your hiking experience and the area you're exploring, and I can tailor gear and safety tips further!",
+      "token_usage": {
+        "prompt_tokens": 85,
+        "completion_tokens": 328,
+        "total_tokens": 413
+      },
+      "run_id": "resp_f3f83d0114880668006a254a2eb7848190992dbb44700fe4d7"
+    },
+    {
+      "test_name": "eval-007-mountain-hike-start-time",
+      "prompt": "How early should I start a mountain hike?",
+      "response": "Starting a mountain hike early is crucial for safety and enjoyment. Here's a tailored recommendation:\n\n1. Start Early (Between 6:00-7:00 AM):\n- Cooler temperatures reduce heat exhaustion risk.\n- More daylight hours for completion and emergencies.\n- Morning weather tends to be more stable in mountains.\n\n2. Consider Your Experience & Fitness:\n- Beginner hikers may want an even earlier start to maintain a relaxed pace.\n- Experienced, fit hikers can tailor start times based on trail length and difficulty.\n\n3. Check Weather & Trail Conditions:\n- Mountain weather can change rapidly, so verify forecasts the night before.\n- Avoid hikes starting late when thunderstorms or extreme heat are predicted.\n\n4. Prepare Appropriate Gear:\n- Bring headlamps or flashlights in case you start pre-dawn or finish late.\n- Wear layered clothing for temperature changes.\n\n5. Safety Protocols:\n- Inform someone of your start time and expected return.\n- Carry a map, compass, or GPS.\n- Have enough water and food.\n\nBackup Option:\n- If severe weather is forecast or you cannot start early, consider a shorter or lower elevation hike for safety.\n\nStarting your hike by 6-7 AM optimizes safety, daylight use, and weather conditions. If you provide your experience level and trail choice, I can offer more precise timing advice!",
+      "token_usage": {
+        "prompt_tokens": 81,
+        "completion_tokens": 266,
+        "total_tokens": 347
+      },
+      "run_id": "resp_b9d94981bc14f5c3006a254a331a508190974b9314d4f4e546"
+    },
+    {
+      "test_name": "eval-008-twisted-ankle-treatment",
+      "prompt": "What's the best way to treat a twisted ankle on the trail?",
+      "response": "Treating a twisted ankle on the trail requires prompt and careful action to minimize swelling and prevent further injury. Here\u2019s a practical step-by-step guide for managing a twisted ankle in the backcountry:\n\n1. **Stop and Assess**  \n   - Sit down immediately to avoid putting weight on the injured ankle.  \n   - Check for severe pain, deformity, numbness, or inability to move the foot \u2014 these signs may indicate a fracture or serious injury requiring evacuation.\n\n2. **R.I.C.E. Method**  \n   - **Rest:** Avoid walking or standing on the injured ankle. Use trekking poles, a tree stump, or your pack for support.  \n   - **Ice:** If you have a cold source (ice pack or cold stream water), apply it wrapped in a cloth to reduce swelling. Limit to 15-20 minutes every 1-2 hours.  \n   - **Compression:** Use an elastic bandage or compression wrap (if available) to control swelling, but avoid wrapping it too tightly to maintain circulation.  \n   - **Elevation:** Elevate the ankle above heart level when resting by sitting or lying down, using your backpack or a rock as a support.\n\n3. **Support and Protection**  \n   - Use a brace, or improvise with a splint (sticks or trekking poles) tied alongside the ankle to limit movement.  \n   - If continuing the hike is necessary, ensure you have stable footwear and consider using trekking poles for balance.\n\n4. **Monitor and Decide**  \n   - Keep monitoring pain, swelling, and mobility. If symptoms worsen or you suspect a fracture/blowout ligament, prepare for evacuation.  \n   - If mild, rest the ankle for the day and gently test mobility before continuing.\n\n5. **Safety Precautions**  \n   - Avoid pushing through severe pain\u2014risking permanent damage.  \n   - Communicate your condition with your group and plan accordingly.\n\n6. **Backup Plan**  \n   - Always carry a basic first aid kit including elastic bandage, tape, and pain relievers.  \n   - Familiarize yourself with nearest exit routes or emergency contacts before your hike.\n\nIf you want, I can suggest how to build a lightweight ankle support kit in your pack or recommend trails with quick access to help in case of injury.",
+      "token_usage": {
+        "prompt_tokens": 85,
+        "completion_tokens": 465,
+        "total_tokens": 550
+      },
+      "run_id": "resp_fe2724f274f13302006a254a3763bc81908cc100fbcfeaf88b"
+    },
+    {
+      "test_name": "eval-009-hiking-boot-selection",
+      "prompt": "How do I choose the right hiking boot?",
+      "response": "Choosing the right hiking boot is crucial for comfort, safety, and performance on the trail. Here\u2019s a step-by-step guide tailored to your hiking needs:\n\n1. Assess Your Experience and Hiking Style  \n- Beginner/Light Hiking: Opt for lightweight hiking shoes or low-cut boots with good cushioning and flexibility.  \n- Intermediate/Day Hiking: Mid-cut boots offering more ankle support and durability.  \n- Advanced/Backpacking/Rough Terrain: Stiff, high-cut boots with excellent support, waterproofing, and rugged soles.\n\n2. Consider Trail and Weather Conditions  \n- Dry, Well-Maintained Trails: Breathable boots with mesh panels can keep feet cool.  \n- Wet or Muddy Trails: Waterproof boots with sealed seams to ensure dryness. Gore-Tex or similar membranes are good choices.  \n- Rocky or Uneven Terrain: Boots with sturdy soles, aggressive tread patterns, and reinforced toe caps for protection.\n\n3. Fit and Comfort  \n- Try Boots On Later in the Day: Feet tend to swell; boots should fit comfortably with a bit of wiggle room in toes.  \n- Wear Hiking Socks When Fitting: Use the socks you plan to hike in.  \n- Heel and Instep: Ensure there\u2019s no slipping, which can cause blisters, but not too tight to restrict circulation.  \n- Walk Around: Test on inclines or steps if possible to check support and sole flexibility.\n\n4. Key Features to Look For  \n- Ankle Support: Especially important for uneven terrain or if you\u2019re prone to sprains.  \n- Waterproofing: Essential for wet conditions, but can reduce breathability.  \n- Weight: Lighter boots reduce fatigue but may sacrifice durability.  \n- Sole: Vibram or similar high-traction soles provide excellent grip.  \n- Break-in Period: New boots need time to soften and mold to your feet; plan for this before long hikes.\n\n5. Safety Protocols  \n- Backup Footwear: Bring lightweight sandals or shoes to change into at camp to avoid foot problems.  \n- Carry Blister Care: Moleskin, blister pads, or tape to address hotspots on the trail.  \n- Proper Maintenance: Keep boots clean and dry to extend lifespan and performance.\n\n6. Backup Options  \n- If unsure, buy from stores with good return policies after trying on trail hikes.  \n- Renting boots for one-off trips to test styles before investing.  \n- Consider trail runners for lighter hikes or ultra-light backpacking, with attention to trail conditions.\n\nFeel free to share your hiking plans or experience level if you want a more specific boot recommendation!",
+      "token_usage": {
+        "prompt_tokens": 81,
+        "completion_tokens": 522,
+        "total_tokens": 603
+      },
+      "run_id": "resp_1d4ad452516562b2006a254a3ee1cc8190994cccef5ac79694"
+    },
+    {
+      "test_name": "eval-010-ten-essentials",
+      "prompt": "What are the 10 essentials for hiking?",
+      "response": "The 10 essentials are a crucial checklist for every hiker to ensure safety and preparedness on the trail. Here\u2019s a clear breakdown:\n\n1. **Navigation:** Map, compass, and/or GPS device. Know how to use them before heading out.\n2. **Hydration:** Enough water for the entire hike plus a method to purify more if needed.\n3. **Nutrition:** High-energy food and snacks to maintain stamina.\n4. **Clothing:** Layered clothing appropriate for weather (base layer, insulating layer, waterproof shell).\n5. **Footwear:** Proper hiking boots or shoes with good grip and support\u2014break them in before a long hike.\n6. **Sun Protection:** Sunglasses, sunscreen, and a wide-brimmed hat.\n7. **First Aid Kit:** Include blister treatment, bandages, antiseptic wipes, and any personal medications.\n8. **Tools:** Multipurpose knife or tool and duct tape for quick repairs.\n9. **Light:** Headlamp or flashlight with extra batteries.\n10. **Emergency Shelter:** Lightweight tarp, space blanket, or bivy sack in case you have to spend an unexpected night outdoors.\n\nAlways tailor your 10 essentials to the specific hike\u2019s length, difficulty, and conditions. Bringing these along significantly reduces risks and can make a big difference in unexpected situations. Would you like gear recommendations or tips for a particular trail?",
+      "token_usage": {
+        "prompt_tokens": 81,
+        "completion_tokens": 279,
+        "total_tokens": 360
+      },
+      "run_id": "resp_7f22c88828baaba6006a254a4470748190b5967f47a5145267"
+    },
+    {
+      "test_name": "eval-011-topographic-map-reading",
+      "prompt": "How do I read a topographic map?",
+      "response": "Reading a topographic map is a key skill for safe and effective hiking and camping. Here's a practical guide to get you started:\n\n### 1. Understand the Basics of a Topo Map\n- **Contour Lines**: These lines represent elevation. Close lines = steep terrain; spaced lines = gentle slopes.\n- **Index Contours**: Thicker lines labeled with elevation (like 1000 ft) to help you gauge height.\n- **Scale**: Shows the ratio of map distance to real-world distance (e.g., 1:24,000 means 1 inch = 24,000 inches).\n- **Legend**: Explains symbols (trails, water, vegetation, etc.).\n- **North Arrow**: Orientation reference; maps are typically aligned to true north.\n\n### 2. Assess Your Experience and Fitness\n- Beginners: Start with gentle terrain indicated by widely spaced contour lines.\n- Fit and experienced: You can handle steeper areas with closely spaced lines.\n\n### 3. Check Trail and Weather Conditions\nBefore heading out, always check:\n- Trail status (closures, hazards).\n- Weather forecasts to prepare for rain, cold, or heat, which affects terrain safety.\n\n### 4. Gear Recommendations\n- Compass: Essential for orienting your map.\n- Altimeter watch or GPS: Useful for pinpointing elevation.\n- Waterproof map holder: Keeps your map dry in tough conditions.\n- Hiking boots with good traction to handle varied terrain.\n\n### 5. How to Use the Map on the Trail\n- Orient your map using a compass.\n- Use contour lines to identify ridges, valleys, and elevation changes.\n- Plan your route considering elevation gain and distance.\n- Regularly check landmarks (rivers, peaks) on your map against what you see.\n\n### 6. Safety Protocols\n- Always carry a map even if using GPS.\n- Inform someone of your route and expected return time.\n- Avoid hiking in unfamiliar steep areas without proper skills.\n- Turn back if weather worsens or if you feel physically strained.\n\n### 7. Backup Options\n- Download digital maps on your phone with offline capability.\n- Carry extra mapping resources or trail guides specific to your Adventure Works area.\n\nIf you\u2019d like, I can walk you through reading a specific topo map segment from Adventure Works or recommend practice routes to build your skills.",
+      "token_usage": {
+        "prompt_tokens": 81,
+        "completion_tokens": 477,
+        "total_tokens": 558
+      },
+      "run_id": "resp_9c39268bf149542e006a254a489d0081908473d8522e1742b0"
+    },
+    {
+      "test_name": "eval-012-mountain-hiking-season",
+      "prompt": "What's the best time of year to hike in the mountains?",
+      "response": "The best time to hike in the mountains generally depends on your location, experience level, and personal preferences, but here are some practical guidelines:\n\n1. **Late Spring to Early Fall (May to September):**  \n   - **Why:** Trails are usually snow-free, weather is milder, and wildflowers often bloom.  \n   - **Conditions:** Days are longer, temperatures are warmer, but thunderstorms in the afternoon can be common in summer at higher elevations.  \n   - **Gear:** Layered clothing, sun protection, rain jacket, sturdy hiking boots.  \n   - **Safety:** Start hikes early to avoid afternoon storms. Check weather updates daily.\n\n2. **Avoid Winter Unless Experienced:**  \n   - Winter hiking requires specialized gear (snowshoes, crampons, insulated layers) and skills to handle snow, ice, and cold.  \n   - Avalanches are a danger in many mountain areas.\n\n3. **Backup Options:**  \n   - If planning a summer hike but forecast shows persistent bad weather, consider lower-elevation or forested trails that have more shelter from elements.  \n   - For spring or fall, have flexible plans as some high-elevation trails may still have snow or mud.\n\nIf you provide the specific mountain range or region, I can give you a tailored recommendation!",
+      "token_usage": {
+        "prompt_tokens": 84,
+        "completion_tokens": 262,
+        "total_tokens": 346
+      },
+      "run_id": "resp_018da537486f7172006a254a51601c8190bd6f845977cd7e44"
+    },
+    {
+      "test_name": "eval-013-compass-navigation",
+      "prompt": "How do I navigate using a compass?",
+      "response": "Navigating with a compass is a vital skill for hiking and camping, especially in unfamiliar or dense terrain. Here\u2019s a practical, step-by-step guide tailored for safety and effectiveness:\n\n### 1. Understand Your Compass Parts\n- **Baseplate:** Flat, transparent plate with ruler markings.\n- **Magnetic Needle:** Red end points to magnetic north.\n- **Rotating Bezel (Azimuth Ring):** Degree markings to set directions.\n- **Direction-of-Travel Arrow:** Indicates the forward direction when navigating.\n- **Orienting Arrow and Lines:** Align with the magnetic needle to set bearings.\n\n### 2. Basic Compass Navigation Steps\n\n**Step 1: Orient the Map**\n- Lay your map flat.\n- Place the compass on it with the edge along your intended path.\n- Rotate the map and compass together until the magnetic needle aligns with the orienting arrow (\u201cred in the shed\u201d). Your map is now oriented to true north.\n\n**Step 2: Set Your Bearing**\n- Identify your destination or waypoint on the map.\n- Place the compass baseplate edge from your current location to the destination.\n- Rotate the bezel until the orienting lines are parallel with the map\u2019s north-south grid, with the orienting arrow pointing north on the map.\n- Read the bearing at the direction-of-travel arrow.\n\n**Step 3: Follow Your Bearing**\n- Hold the compass flat at waist level.\n- Turn your body until the magnetic needle aligns with the orienting arrow.\n- Walk in the direction the travel arrow points, sighting on landmarks if possible.\n\n### 3. Practical Tips\n- **Check your compass declination:** Your map will list declination (difference between magnetic and true north). Adjust your compass or bearing accordingly.\n- **Keep the compass level:** To prevent the needle from sticking.\n- **Avoid metal and electronics:** Keep the compass away from metal objects and electronic devices to prevent interference.\n- **Practice pace counting:** Helps estimate distance on trail-less terrain.\n\n### 4. Gear Recommendations\n- Quality baseplate compass with adjustable declination.\n- Waterproof map of the area.\n- GPS device as a backup.\n- Whistle and headlamp for signaling and emergencies.\n\n### 5. Safety Protocols\n- Always tell someone your planned route and expected return time.\n- Carry extra batteries for electronic gear.\n- If lost, stop, stay calm, try to retrace your steps or use your compass orientation to reach known landmarks or trails.\n- Avoid navigating in extreme weather or twilight if you lack experience.\n\n### 6. Backup Options\nIf compass navigation is difficult or visibility poor, use:\n- Trail markers or cairns.\n- GPS devices or smartphone apps with offline maps.\n- Follow watercourses downhill to find trails or roads in some terrains (careful with river navigation).\n\nWould you like me to provide a quick guide on compass declination adjustment or suggest beginner-friendly trails to practice compass skills?",
+      "token_usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 593,
+        "total_tokens": 673
+      },
+      "run_id": "resp_d2927713a9f48b60006a254a57fa608190815694ca9feb5b61"
+    },
+    {
+      "test_name": "eval-014-hiking-first-aid-kit",
+      "prompt": "What should I include in a hiking first aid kit?",
+      "response": "For a hiking first aid kit, here\u2019s a practical, safety-focused list tailored for most day hikes and light backpacking trips:\n\n### Essentials to Include:\n1. **Adhesive Bandages** (various sizes) \u2013 for minor cuts and blisters.\n2. **Sterile Gauze Pads** (2x2-inch and 4x4-inch) \u2013 for larger wounds.\n3. **Adhesive Tape** \u2013 to secure gauze and bandages.\n4. **Antiseptic Wipes or Solution** \u2013 to clean wounds.\n5. **Antibiotic Ointment** \u2013 to prevent infection.\n6. **Tweezers** \u2013 for removing splinters, ticks, or debris.\n7. **Small Scissors** \u2013 to cut tape, gauze, or clothing.\n8. **Pain Relievers** (ibuprofen or acetaminophen) \u2013 for aches or pain.\n9. **Blister Treatment** \u2013 moleskin or blister pads.\n10. **Safety Pins** \u2013 to secure bandages or slings.\n11. **Elastic Bandage** \u2013 for sprains or strains.\n12. **Disposable Gloves** \u2013 to maintain hygiene when treating wounds.\n13. **CPR Face Shield** \u2013 for emergency resuscitation.\n14. **Instant Cold Pack** \u2013 for reducing swelling.\n15. **Burn Cream or Aloe Vera Gel** \u2013 in case of sunburn or minor burns.\n16. **Medical Tape** \u2013 for securing dressings firmly.\n\n### Additional Tips:\n- Tailor contents based on group size, trip length, and number of participants.\n- Include personal medications (e.g., allergy meds, EpiPen).\n- Pack items in a waterproof, compact container.\n- Know how to use everything in your kit \u2014 consider a basic first aid course.\n- Always carry a means to communicate emergencies (cell phone, satellite messenger).\n\n### Backup options:\n- Carry a detailed first aid manual or app.\n- Plan your hike close to accessible exit points or ranger stations.\n- Share your planned route and expected return time with someone reliable.\n\nIf you tell me your hiking experience or the trail conditions expected, I can help refine this list further!",
+      "token_usage": {
+        "prompt_tokens": 83,
+        "completion_tokens": 443,
+        "total_tokens": 526
+      },
+      "run_id": "resp_cc6355577739b23c006a254a5fb33c81909e0b35204d2e7f64"
+    },
+    {
+      "test_name": "eval-015-trail-fitness-difficulty",
+      "prompt": "How can I tell if a trail is too difficult for my fitness level?",
+      "response": "To determine if a trail matches your fitness level, assess these key factors:\n\n1. **Trail Length and Duration**  \n   - Check trail distance and estimated completion time. If a trail is significantly longer or expected to take much more time than your usual hikes, it may be too demanding.\n\n2. **Elevation Gain**  \n   - Steep ascents increase exertion. Trails with rapid elevation gain can quickly exhaust unprepared hikers.\n\n3. **Trail Terrain and Technicality**  \n   - Rocky, uneven, or narrow paths require more balance and strength. Technical trails with scrambling or exposed sections are better suited for experienced hikers.\n\n4. **Your Current Fitness Basics**  \n   - Reflect on your recent activity: Can you comfortably walk 3-5 miles on flat ground? Do stairs or hills tire you quickly? How is your endurance and joint health?\n\n5. **Weather Conditions**  \n   - Hot, humid, or wet weather raises difficulty. Account for extra effort needed in adverse weather.\n\n**Practical Test:**\n- Start with shorter, easier trails with moderate elevation.\n- Monitor how your heart rate and breathing feel.\n- If you struggle or need frequent breaks, that trail may be too challenging.\n\n**Safety Tip:**  \nAlways have a turnaround time or point where you will return if feeling strained.\n\n**Backup:**  \nChoose nearby trails ranked as Easy to Moderate on local park resources. Gradually increase difficulty as your fitness and confidence improve.\n\nIf you want, I can help recommend trails matched to your current fitness and conditions!",
+      "token_usage": {
+        "prompt_tokens": 87,
+        "completion_tokens": 309,
+        "total_tokens": 396
+      },
+      "run_id": "resp_44489d72947e6ad0006a254a64cf6c819093a34f67f8486bba"
+    },
+    {
+      "test_name": "eval-016-fall-hiking-layers",
+      "prompt": "What layers should I wear for fall hiking?",
+      "response": "For fall hiking, layering is key to staying comfortable and safe as temperatures and weather can change quickly. Here\u2019s a practical layering system tailored for fall:\n\n1. **Base Layer:**  \n- Choose moisture-wicking materials like merino wool or synthetic fabrics.  \n- Avoid cotton as it retains moisture and chills the body.\n\n2. **Insulating Layer:**  \n- Use a lightweight fleece or synthetic down jacket to retain warmth.  \n- Adjust thickness based on your fitness level and expected temperatures (cool to chilly).\n\n3. **Outer Layer:**  \n- Wear a waterproof, breathable shell jacket to protect against wind and rain.  \n- Make sure it\u2019s packable in case conditions improve.\n\n**Additional Tips:**  \n- Bring a hat and gloves; cooler mornings and elevations require extra warmth.  \n- Consider hiking pants with thermal leggings underneath or convertible pants.  \n- Good hiking socks (wool blend) and sturdy, waterproof boots are essential.\n\n**Safety:**  \n- Check the weather forecast before you go; fall can bring sudden storms or dips in temperature.  \n- Keep an extra insulating layer packed if you plan to stop or camp overnight.  \n- Always have a rain cover for your pack and quick-dry clothing options in case you get wet.\n\nIf you want, I can suggest specific gear brands or help tailor layers for your planned trail and fitness level!",
+      "token_usage": {
+        "prompt_tokens": 81,
+        "completion_tokens": 273,
+        "total_tokens": 354
+      },
+      "run_id": "resp_900312fd092902a0006a254a68b368819087de8d22bc89848f"
+    },
+    {
+      "test_name": "eval-017-altitude-sickness-prevention",
+      "prompt": "How do I prevent altitude sickness?",
+      "response": "Preventing altitude sickness is crucial for a safe and enjoyable high-elevation hike or camping trip. Here are detailed, practical tips:\n\n### 1. Gradual Ascent and Acclimatization\n- Ascend slowly. Avoid gaining more than 1,000 feet (300 meters) in elevation per day once above 8,000 feet (2,400 meters).\n- Plan rest days every 3,000 feet (900 meters) of elevation gain.\n- Spend a night at intermediate altitudes before going higher to let your body adjust.\n\n### 2. Hydration and Nutrition\n- Stay well-hydrated by drinking plenty of water (about 3-4 liters daily).\n- Avoid excessive caffeine and alcohol, as they can dehydrate you.\n- Eat a balanced diet with complex carbohydrates to provide sustained energy.\n\n### 3. Physical Conditioning\n- Build your cardiovascular fitness before your trip with aerobic exercises like hiking, running, or cycling.\n- Be honest about your current fitness level; altitude sickness affects even fit individuals, but better fitness helps overall endurance.\n\n### 4. Medications and Preventive Measures\n- Consider consulting a healthcare provider about **acetazolamide** (Diamox), which can help prevent altitude sickness.\n- Avoid sleeping pills, as they can worsen breathing difficulties at altitude.\n\n### 5. Monitor Symptoms & Stay Informed\n- Know the symptoms: headache, nausea, dizziness, fatigue, shortness of breath.\n- If symptoms worsen or become severe (persistent vomiting, confusion, inability to walk), descend immediately.\n- Avoid overexertion, especially during the first 24-48 hours.\n\n### 6. Appropriate Gear\n- Layered clothing to manage temperature swings.\n- Sunscreen and sunglasses to protect against stronger UV rays.\n- Electrolyte supplements to maintain hydration balance.\n\n### 7. Backup Plan\n- Identify lower elevation points on your route for emergency descent.\n- Carry a communication device (satellite phone or PLB) for emergencies.\n- Hike with a buddy or group; watch each other for signs of altitude sickness.\n\nWould you like recommendations based on a specific trail or altitude, or guidance tailored to your fitness and hike duration?",
+      "token_usage": {
+        "prompt_tokens": 79,
+        "completion_tokens": 443,
+        "total_tokens": 522
+      },
+      "run_id": "resp_f3a38e051bf4e211006a254a6c47a08190bae057c0dad4d71e"
+    },
+    {
+      "test_name": "eval-018-trail-vs-route",
+      "prompt": "What's the difference between a trail and a route?",
+      "response": "Great question! Understanding the difference helps ensure safe, enjoyable hiking and accurate navigation.\n\n**Trail:**\n- A trail is a clearly defined and maintained path designed for hiking or other outdoor activities.\n- Usually marked by signs, blazes, or cairns, with a clear start and end.\n- Easier to follow, often with defined footing, making it suitable for various skill levels.\n- Examples: dirt paths, boardwalks, or gravel routes that are regularly maintained.\n\n**Route:**\n- A route is a more general navigation path that may not have a defined or maintained trail.\n- It can involve cross-country travel, requiring map reading, compass skills, or GPS.\n- Often used in backcountry or wilderness areas where formal trails don\u2019t exist.\n- Requires higher navigation skills and fitness, and involves more planning.\n\n**In Summary:**\n- Use *trails* if you want a more straightforward, safer hike that\u2019s easier to navigate.\n- Use *routes* when you\u2019re experienced, seeking adventure, and equipped with navigation tools.\n\nIf you\u2019re new or intermediate, I recommend sticking to marked trails, especially given changing weather and terrain conditions. Always carry a map, compass, and basic navigation knowledge even on trails, and have backup options planned!",
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 254,
+        "total_tokens": 336
+      },
+      "run_id": "resp_f0b91eaff253bae0006a254a7190988190bf3f337f740748aa"
+    },
+    {
+      "test_name": "eval-019-backpack-packing",
+      "prompt": "How do I pack a backpack properly?",
+      "response": "Packing a backpack properly is key to comfort, balance, and safety on the trail. Here\u2019s a step-by-step guide tailored for hiking and camping, focusing on practical and safe packing:\n\n### Assess Your Experience and Trip Length\n- **Beginner or short hike (day trip):** Keep it simple, pack light.\n- **Overnight or multi-day trips:** More gear, careful organization needed.\n\n### Step 1: Choose the Right Backpack\n- Fit the backpack to your torso length.\n- Use a pack with adjustable straps and a padded hip belt for weight distribution.\n\n### Step 2: Gear Layout Strategy\n- **Bottom of the pack:** Lightweight and non-essential items (e.g., sleeping bag, extra clothes).\n- **Middle (closest to your back):** Heavy and dense items (e.g., food, stove, water reservoirs).\n- **Top:** Quick-access or light items (e.g., rain jacket, first aid kit, snacks).\n- **Outside pockets:** Maps, sunscreen, insect repellent, small tools.\n\n### Step 3: Packing Tips\n- Use dry sacks or compression bags to organize and keep gear dry.\n- Distribute weight evenly to avoid strain; heavier items centered.\n- Fill empty spaces to avoid shifting gear that causes imbalance.\n- Attach bulky items externally only if necessary and secure tightly.\n\n### Step 4: Important Gear to Include\n- Navigation tools (map, compass, GPS)\n- First aid kit\n- Weather-appropriate clothing layers\n- Rain gear\n- Food and sufficient water (or filtration system)\n- Emergency shelter (tent, bivy bag)\n- Headlamp/flashlight with spare batteries\n- Multi-tool or knife\n\n### Step 5: Safety Protocols\n- Always pack a communication device (phone, satellite messenger).\n- Inform someone of your itinerary and expected return.\n- Carry extra food and water for emergencies.\n- Check trail and weather conditions before departure.\n\n### Backup Option\n- If your backpack feels too heavy or unbalanced, reassess gear:\n  - Remove non-essential items.\n  - Consider a lighter tent or compact stove.\n  - Use ultralight gear options if available.\n\n---\n\nIf you\u2019d like, I can help you customize your pack list based on your trail and experience level. Just let me know!",
+      "token_usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 464,
+        "total_tokens": 544
+      },
+      "run_id": "resp_e642ba5f34459574006a254a74fb8c8190b5c3b2b49ebccde2"
+    },
+    {
+      "test_name": "eval-020-lost-on-trail",
+      "prompt": "What should I do if I get lost on a trail?",
+      "response": "If you get lost on a trail, follow these steps to stay safe and increase your chances of being found:\n\n1. **Stay Calm and Stop Moving**  \n   - Panic can cause poor decisions. Stop where you are to avoid getting more lost.\n\n2. **Assess Your Situation**  \n   - Take inventory of your resources: water, food, gear.\n   - Check the time of day and weather conditions.\n\n3. **Try to Retrace Your Steps**  \n   - If you are confident and the terrain is safe, carefully backtrack on your route.\n\n4. **Use Navigation Tools**  \n   - Use your map, compass, or GPS device to orient yourself.\n   - Look for recognizable landmarks.\n\n5. **Signal for Help**  \n   - Use a whistle (three blasts is an international distress signal).  \n   - Signal with a mirror or flashlight.\n   - Make yourself visible by wearing bright clothing or setting up colorful markers.\n\n6. **Stay Put if You Can**  \n   - It\u2019s easier for rescuers to find a stationary person.\n   - Build a shelter if weather conditions require.\n\n7. **Conserve Your Energy and Resources**  \n   - Ration water and food.\n   - Avoid unnecessary movement.\n\n8. **Notify Someone When Possible**  \n   - Use your phone or emergency beacon to call for help if you have signal.\n\n**Additional Advice:**  \n- Always tell someone your planned route and expected return time before you hike.  \n- Carry essentials: map, compass, whistle, first aid kit, flashlight, water, and extra food.  \n- Weather can change rapidly; always have a lightweight rain jacket and warm layers.\n\n**Backup Plan:**  \nIf conditions worsen or you are unsure about moving, stay put and focus on being visible and signaling for help.\n\nSafety first\u2014preparation and remaining calm are key to handling being lost on a trail. If you need, I can help you prepare a specific kit for your next outing!",
+      "token_usage": {
+        "prompt_tokens": 84,
+        "completion_tokens": 398,
+        "total_tokens": 482
+      },
+      "run_id": "resp_d74f2887599106e8006a254a7b60688190908bfba101281f92"
+    }
+  ]
+}
