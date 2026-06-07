@@ -32,7 +32,7 @@ load_dotenv()  # reads variables from the .env file in your project root
 endpoint              = os.environ.get("AZURE_AI_PROJECT_ENDPOINT")
 model_deployment_name = os.environ.get("MODEL_NAME", "gpt-4.1")
 dataset_name          = "trail-guide-evaluation-dataset"
-dataset_version       = "1"
+dataset_version       = os.environ.get("DATASET_VERSION", "1")
 
 # The script writes a plain-text summary here when it finishes.
 # This file is committed to the branch so the GitHub Actions workflow
